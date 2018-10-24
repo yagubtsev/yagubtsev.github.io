@@ -1,0 +1,199 @@
+@media screen and (max-width: 1360px) {
+	.road {
+		display: none;
+	}
+
+	.pages {
+		margin-right: 0 !important;
+	}
+
+	.books-cards {
+		width: auto;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.container {
+		width: 85%;
+	}
+}
+
+@media screen and (max-width: 1095px) {
+	.pages {
+		display: none;
+	}
+
+	.section__title, #st_2 {
+		width: 300px;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+
+	.section__title h1, .st_2 {
+		text-align: center;
+		margin-top: 0;
+	}
+
+	.line {
+		margin-top: 30px;
+	}
+
+	.about-project_text {
+		text-align: center;
+		margin-right: 0 !important;
+		margin-left: 0 !important;
+		margin-left: 50% !important;
+		transform: translate(-50%);
+	}
+
+	#st_3 {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 970px) {
+	.header-menu {
+		display: block !important;
+	}
+
+	nav {
+		width: 100%;
+		margin: 0 auto;
+		display: flex;
+	}
+
+	.header {
+		height: auto;
+	}
+
+	.menu {
+		width: 100% !important;
+		margin-left: 0 !important;
+		padding: 15px 0 30px 0 !important;
+	}
+
+	.logo {
+		display: block;
+		margin: 0 auto;
+		padding-top: 30px !important;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.footer__text {
+		flex-direction: column;
+	}
+
+	.road_2 {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 760px) {
+	.first-title, .first-title__item {
+		width: 95% !important;
+		height: auto !important;
+	}
+
+	.first-title__item p {
+		font-size: 42px !important;
+	}
+}
+
+@media screen and (max-width: 670px) {
+	.first-title__item p {
+		font-size: 36px !important;
+	}
+
+	.about-project_text {
+		width: 90% !important;
+	}
+}
+
+@media screen and (max-width: 660px) {
+	.video {
+		width: 90%;
+	}
+
+	.movie {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 580px) {
+	.menu {
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.menu li {
+		padding-bottom: 20px;
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 515px) {
+	.form {
+		width: 90% !important;
+		margin: 0 auto;
+	}
+
+	form {
+		width: 100% !important;
+	}
+
+	form input {
+		display: block;
+		width: 80% !important;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 473px) {
+	#btn_3 {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 465px) {
+	.top-text, .otbros {
+		font-size: 15px !important;
+	}
+}
+
+@media screen and (max-width: 370px) {
+	.section__title {
+		width: auto;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 989px) {
+	#small {
+		font-size: 15.9px;
+	}
+}
+
+@media screen and (max-width: 983px) {
+	.books-cards {
+
+	}
+}
+
+@media screen and (max-width: 360px) {
+	#st_2 h1 {
+		font-size: 36px;
+	}
+
+	#st_2 {
+		width: auto;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.right {
+		font-size: 16px !important;
+	}
+}
