@@ -1,0 +1,118 @@
+@media screen and (max-width: 1366px) {
+  .info-list__item {
+    margin: 0 auto;
+    margin-bottom: 80px;
+    text-align: center;
+  }
+  .phone-block {
+    margin-left: 150px;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .phone-block {
+    margin-left: 50px;
+  }
+  .adventages-list__item {
+    margin-right: 10%;
+    margin-bottom: 70px;
+  }
+}
+@media screen and (max-width: 1152px) {
+  .phone-block {
+    transform: scale(0.7);
+    margin-left: 0;
+  }
+  .adventages-list {
+    justify-content: space-around;
+  }
+  .adventages-list__item {
+    margin-right: 0;
+    margin-right: 5%;
+  }
+  .phone {
+    min-height: 730px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .phone-block {
+    transform: scale(0.5);
+    margin-left: -130px;
+  }
+  .phone {
+    min-height: 580px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .phone-block {
+    margin-left: 0;
+    margin-top: 100px;
+  }
+  .phone-content {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .phone {
+    min-height: 880px;
+  }
+  .phone-block {
+    transform: scale(0.6);
+  }
+  .info {
+    padding-top: 0;
+  }
+}
+@media screen and (max-width: 576px) {
+  .phone-block__item img {
+    width: 100%;
+    display: block;
+    margin-left: 50px;
+  }
+  .header__content h1 {
+    font-size: 48px;
+  }
+  .header__content p {
+    font-size: 16px;
+  }
+  .video-block h2,
+  .rush-content h1 {
+    font-size: 32px;
+  }
+  .video-block p,
+  .rush-content p {
+    font-size: 16px;
+  }
+  .phone-content h3 {
+    font-size: 24px;
+  }
+  .phone-content p {
+    font-size: 16px;
+  }
+  .info-list__item p {
+    font-size: 16px;
+  }
+  .info-list__item h3 {
+    font-size: 22px;
+  }
+  .phone-block__item {
+    position: relative;
+  }
+  .phone-block__item img:first-child {
+    position: absolute;
+    z-index: 3;
+  }
+  .phone-block__item img:nth-child(2) {
+    position: absolute;
+    top: 100px;
+    left: -40px;
+    z-index: 2;
+  }
+  .phone-block__item img:last-child {
+    position: absolute;
+    z-index: 1;
+    top: 180px;
+    left: -50px;
+  }
+  .phone {
+    min-height: 750px;
+  }
+}
