@@ -120,16 +120,6 @@
   }
 }
 @media screen and (max-width: 800px) {
-  .header {
-    height: 120vh;
-  }
-  .header__content {
-    position: absolute;
-    left: 50%;
-    top: 100%;
-    transform: translate(-50%, -100%);
-    width: 80%;
-  }
   .idea-list__item {
     width: 300px;
     margin: 0 auto;
