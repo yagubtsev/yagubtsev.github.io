@@ -3,10 +3,12 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Автоматический обмен валют</title>
+	<title>Mychange - Автоматический обмен валют</title>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel = "icon" type = "image/x-icon" href = "img/favicon.ico">
 	<link rel="stylesheet" type="text/css" href="css/adaptive.css">
 	<link rel="stylesheet" type="text/css" href="css/animate.css">
+
 </head>
 <body>
 	<header id="header" class="header">
@@ -64,7 +66,7 @@
 				<p>
 					за считанные минуты
 				</p>
-				<a href="#" class="btn">
+				<a onclick="slowScroll('#header-2')" href="#" class="btn">
 					Подробнее
 				</a>
 			</div>
@@ -82,7 +84,7 @@
 				<ul class="menu-2 wow fadeIn">
 					<li>
 						<img src="img/header-2-icon1.png" alt="иконка">
-						<a href="#">
+						<a href="index.html">
 							Обмен
 						</a>
 					</li>
@@ -372,7 +374,65 @@
 							</p>
 							<input type="text" value="1">
 							<img src="img/plat1.png" alt="иконка">
-							<input type="text" placeholder="Яндекс Деньги">
+							<select>
+								<option>
+									Яндекс Деньги
+								</option>
+								<option>
+									Приват24 UAH
+								</option>
+								<option>
+									Bitcoin (BTC)
+								</option>
+								<option>
+									Bitcoin Cash (BTH)
+								</option>
+								<option>
+									Ethereum (ETH)
+								</option>
+								<option>
+									Ethereum Classic (ETC)
+								</option>
+								<option>
+									Litecoin (LTC)
+								</option>
+								<option>
+									WEX (USD)
+								</option>
+								<option>
+									PM (EUR)
+								</option>
+								<option>
+									PM (RUB)
+								</option>
+								<option>
+									Exmo (USD)
+								</option>
+								<option>
+									Exmo (EUR)
+								</option>
+								<option>
+									Exmo (RUB)
+								</option>
+								<option>
+									Payer (USD)
+								</option>
+								<option>
+									Payer (EUR)
+								</option>
+								<option>
+									Payer (RUB)
+								</option>
+								<option>
+									AdvCash (USD)
+								</option>
+								<option>
+									AdvCash (EUR)
+								</option>
+								<option>
+									AdvCash (RUB)
+								</option>
+							</select>
 							<span>
 								1.1 <br>
 								с учетом комиссии
@@ -384,7 +444,65 @@
 							</p>
 							<input type="text" value="0.4">
 							<img src="img/plat2.png" alt="иконка">
-							<input type="text" placeholder="Приват24 UAH">
+							<select>
+								<option>
+									Приват24 UAH
+								</option>
+								<option>
+									Яндекс Деньги
+								</option>
+								<option>
+									Bitcoin (BTC)
+								</option>
+								<option>
+									Bitcoin Cash (BTH)
+								</option>
+								<option>
+									Ethereum (ETH)
+								</option>
+								<option>
+									Ethereum Classic (ETC)
+								</option>
+								<option>
+									Litecoin (LTC)
+								</option>
+								<option>
+									WEX (USD)
+								</option>
+								<option>
+									PM (EUR)
+								</option>
+								<option>
+									PM (RUB)
+								</option>
+								<option>
+									Exmo (USD)
+								</option>
+								<option>
+									Exmo (EUR)
+								</option>
+								<option>
+									Exmo (RUB)
+								</option>
+								<option>
+									Payer (USD)
+								</option>
+								<option>
+									Payer (EUR)
+								</option>
+								<option>
+									Payer (RUB)
+								</option>
+								<option>
+									AdvCash (USD)
+								</option>
+								<option>
+									AdvCash (EUR)
+								</option>
+								<option>
+									AdvCash (RUB)
+								</option>
+							</select>
 						</div>
 					</div>
 					<div class="content-kurs  wow fadeIn">
@@ -399,22 +517,22 @@
 							<p>
 								E-mail
 							</p>
-							<input type="text" placeholder="test@mail.ru">
+							<input required type="text" placeholder="test@mail.ru">
 						</div>
 						<div class="content-form_2__item  wow fadeIn">
 							<p>
 								Яндекс Счет
 							</p>
-							<input type="text" placeholder="410074820017435">
+							<input required type="text" placeholder="410074820017435">
 						</div>
 						<div class="content-form_2__item  wow fadeIn">
 							<p>
 								Карта ПБ UAH
 							</p>
-							<input type="text" placeholder="1234567890123456">
+							<input required type="text" placeholder="1234567890123456">
 						</div>
 						<div class="check  wow fadeIn">
-							<input type="checkbox">
+							<input required type="checkbox">
 							<p>
 								согласен(а) с <a href="#">
 									регламентом обмена
@@ -443,9 +561,67 @@
 								и при поступлении средств <br>указанных Вами, Вы получите <br>одноразовое уведомление на <br>e-mail.
 							</p>
 							<div class="form-2  wow fadeIn">
-								<input type="text" placeholder="Ваш e-mail">
-								<input type="text" placeholder="Сумма">
-								<input type="text" placeholder="Яндекс Деньги">
+								<input required type="text" placeholder="Ваш e-mail">
+								<input required type="text" placeholder="Сумма">
+								<select>
+									<option>
+										Яндекс Деньги
+									</option>
+									<option>
+										Приват24 UAH
+									</option>
+									<option>
+										Bitcoin (BTC)
+									</option>
+									<option>
+										Bitcoin Cash (BTH)
+									</option>
+									<option>
+										Ethereum (ETH)
+									</option>
+									<option>
+										Ethereum Classic (ETC)
+									</option>
+									<option>
+										Litecoin (LTC)
+									</option>
+									<option>
+										WEX (USD)
+									</option>
+									<option>
+										PM (EUR)
+									</option>
+									<option>
+										PM (RUB)
+									</option>
+									<option>
+										Exmo (USD)
+									</option>
+									<option>
+										Exmo (EUR)
+									</option>
+									<option>
+										Exmo (RUB)
+									</option>
+									<option>
+										Payer (USD)
+									</option>
+									<option>
+										Payer (EUR)
+									</option>
+									<option>
+										Payer (RUB)
+									</option>
+									<option>
+										AdvCash (USD)
+									</option>
+									<option>
+										AdvCash (EUR)
+									</option>
+									<option>
+										AdvCash (RUB)
+									</option>
+							</select>
 							</div>
 							<a href="#" class="btn  wow fadeIn">
 								Подписаться
@@ -500,5 +676,11 @@
 		new WOW().init();
 	</script>
 	<script src="js/script.js"></script>
+
+	<!-- HelloPreload http://hello-site.ru/preloader/ -->
+<style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload{display: block;position: fixed;z-index: 99999;top: 0;left: 0;width: 100%;height: 100%;min-width: 1000px;background: #22313F url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;background-size:100px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},1000);};</script>
+<!-- HelloPreload http://hello-site.ru/preloader/ -->
 </body>
 </html>

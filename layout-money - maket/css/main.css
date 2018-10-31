@@ -312,6 +312,18 @@ a {
   width: 150px;
   height: 40px;
 }
+.content-form select {
+  font-size: 16px;
+  background: transparent;
+  border: 1px solid #fff;
+  text-align: center;
+  color: #fff;
+  width: 150px;
+  height: 40px;
+}
+.content-form option {
+  color: #000;
+}
 .content-form img {
   width: 23px;
   height: 28px;
@@ -414,6 +426,18 @@ a {
 }
 .form-2 input:last-child {
   margin-bottom: 30px;
+}
+.form-2 select {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px 0;
+  padding-left: 15px;
+  font-size: 15px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+.form-2 select option {
+  color: #000;
 }
 #main-content2 p {
   margin-left: 25px;
