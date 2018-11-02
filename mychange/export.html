@@ -1,0 +1,4468 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mychange - Экспорт курсов</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/main-programm.css">
+	<link rel="stylesheet" type="text/css" href="css/main-registration.css">
+	<link rel="stylesheet" type="text/css" href="css/main-export.css">
+	<link rel = "icon" type = "image/x-icon" href = "img/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/adaptive.css">
+	<link rel="stylesheet" type="text/css" href="css/adaptive-programm.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+	<div class="registration">
+		<div class="close">
+			<span></span>
+			<span></span>
+		</div>
+		<form id="reg-form" class="reg">
+			<div class="reg__item">
+				<p>Ваш e-mail</p>
+				<input type="text" placeholder="test@mail.ru">
+			</div>
+			<div class="reg__item">
+				<p>Пароль</p>
+				<input type="password" placeholder="12345678">
+			</div>
+			<div class="reg__item">
+				<p>Повторите пароль</p>
+				<input type="text">
+			</div>
+			<a href="#" class="btn">
+				Продолжить
+			</a>
+		</form>
+		<form id="vhod-form" class="reg">
+			<div class="reg__item">
+				<p>Ваш e-mail</p>
+				<input type="text" placeholder="test@mail.ru">
+			</div>
+			<div class="reg__item">
+				<p>Пароль</p>
+				<input type="password" placeholder="12345678">
+			</div>
+			<a href="#" class="btn">
+				Войти
+			</a>
+		</form>
+	</div>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="header-content">
+				<a href="index.html">
+					<img class="logo" src="img/logo.png" alt="логотип">
+				</a>
+				<nav>
+					<ul class="menu-1">
+						<li>
+							<a href="help.html">
+								Помощь
+							</a>
+						</li>
+						<li>
+							<a href="agreement.html">
+								Соглашение
+							</a>
+						</li>
+						<li>
+							<a href="news.html">
+								Новости
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="auto">
+					<a href="#">
+						<div id="vhod" class="auto__item">
+							<img src="img/header-icon1.png" alt="вход">
+							<p>
+								Вход
+							</p>
+						</div>
+					</a>
+					<a href="#">
+						<div id="reg" class="auto__item">
+							<img src="img/header-icon2.png" alt="регистрация">
+							<p>
+								Регистрация
+							</p>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="header-2" class="header-2">
+		<div class="container">
+			<div class="just">
+				<div class="jr"></div>
+				<div class="circle-menu">
+					<span class="line"></span>
+				</div>
+			</div>
+			<nav>
+				<ul class="menu-2 wow fadeIn">
+					<li>
+						<img src="img/header-2-icon1.png" alt="иконка">
+						<a href="index.html">
+							Обмен
+						</a>
+					</li>
+					<li>
+						<img src="img/header-2-icon2.png" alt="иконка">
+						<a href="index-programm.html">
+							Партнерская программа
+						</a>
+					</li>
+					<li>
+						<img src="img/header-2-icon3.png" alt="иконка">
+						<a href="index-bonus.html">
+							Бонусная система
+						</a>
+					</li>
+					<li>
+						<img src="img/header-2-icon4.png" alt="иконка">
+						<a href="index-comments.html">
+							Отзывы
+						</a>
+					</li>
+					<li>
+						<img src="img/header-2-icon5.png" alt="иконка">
+						<a href="index-contact.html">
+							Контакты
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<div id="open-reserv" class="open-reserv">
+				<p>
+					Резервы валют
+				</p>
+				<img src="img/развернуть.png" alt="развернуть">
+			</div>
+		</div>
+	</section>
+	<section id="main" class="main">
+		<div class="container">
+			<div class="main-wrapper">
+				<div class="reserv wow fadeInLeft">
+					<div class="reserv-sidebar">
+						<div class="reserv__title">
+							<img src="img/sidebar-icon.png" alt="резервы валют">
+							<h2>
+								Резервы валют
+							</h2>
+						</div>
+						<div class="reserv-list">
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat1.png" alt="платёжная система">
+								<p>
+									Яндекс Деньги
+								</p>
+								<div class="summ">
+									<p>
+										16891.5
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat2.png" alt="платёжная система">
+								<p>
+									Приват24 UAH
+								</p>
+								<div class="summ">
+									<p>
+										90251
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat3.png" alt="платёжная система">
+								<p>
+									Bitcoin (BTC)
+								</p>
+								<div class="summ">
+									<p>
+										0.110088
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat4.png" alt="платёжная система">
+								<p>
+									Bitcoin (BTH)
+								</p>
+								<div class="summ">
+									<p>
+										1.04665
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat5.png" alt="платёжная система">
+								<p>
+									Ethereum (ETH)
+								</p>
+								<div class="summ">
+									<p>
+										7.24264
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat6.png" alt="платёжная система">
+								<p>
+									Ethreum Classic (ETC)
+								</p>
+								<div class="summ">
+									<p>
+										53.7138
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat7.png" alt="платёжная система">
+								<p>
+									Litecoin (LTC)
+								</p>
+								<div class="summ">
+									<p>
+										0.0373484
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat8.png" alt="платёжная система">
+								<p>
+									WEX (USD)
+								</p>
+								<div class="summ">
+									<p>
+										447.884
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat8.png" alt="платёжная система">
+								<p>
+									WEX (RUB)
+								</p>
+								<div class="summ">
+									<p>
+										24725.3
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat9.png" alt="платёжная система">
+								<p>
+									PM (EUR)
+								</p>
+								<div class="summ">
+									<p>
+										305.17
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat9.png" alt="платёжная система">
+								<p>
+									PM (RUB)
+								</p>
+								<div class="summ">
+									<p>
+										1430.28
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat10.png" alt="платёжная система">
+								<p>
+									Exmo (USD)
+								</p>
+								<div class="summ">
+									<p>
+										211.29
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat10.png" alt="платёжная система">
+								<p>
+									Exmo (EUR)
+								</p>
+								<div class="summ">
+									<p>
+										1.46
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat10.png" alt="платёжная система">
+								<p>
+									Exmo (RUB)
+								</p>
+								<div class="summ">
+									<p>
+										28949.4
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat11.png" alt="платёжная система">
+								<p>
+									Payer (USD)
+								</p>
+								<div class="summ">
+									<p>
+										20.8
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat11.png" alt="платёжная система">
+								<p>
+									Payer (EUR)
+								</p>
+								<div class="summ">
+									<p>
+										754.1
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat11.png" alt="платёжная система">
+								<p>
+									Payer (RUB)
+								</p>
+								<div class="summ">
+									<p>
+										161.01
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat12.png" alt="платёжная система">
+								<p>
+									AdvCash (USD)
+								</p>
+								<div class="summ">
+									<p>
+										360.91
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat12.png" alt="платёжная система">
+								<p>
+									AdvCash (EUR)
+								</p>
+								<div class="summ">
+									<p>
+										54.55
+									</p>
+								</div>
+							</div>
+							<div class="reserv-list__item wow fadeIn">
+								<img src="img/plat12.png" alt="платёжная система">
+								<p>
+									AdvCash (RUB)
+								</p>
+								<div class="summ">
+									<p>
+										17543.6
+									</p>
+								</div>
+							</div>
+						</div>
+						<a href="export.html" class="btn wow fadeIn">
+							Экспорт курсов
+						</a>
+					</div>
+				</div>
+				<div class="main-content wow fadeInRight">
+					<div class="reserv__title">
+						<img src="img/content-icon.png" alt="автоматический обмен валют">
+						<h2>
+							Актуальные курсы обмена
+						</h2>
+					</div>
+					<div class="wrapper">
+						<div class="table_wrap">
+							<table class="table">
+								<tbody>
+
+									<!-- яндекс начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											508,740.37
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											18,031.79
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											833.33
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											4,860.88
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											75.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											82.87
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											77.24
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											85.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.25
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											76.30
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											83.24
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.06
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											76.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											82.45
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.07
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+
+									<!-- яндекс конец -->
+
+									<!-- приват24 начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											2.36
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											199,199.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											89,999.0
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat4.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin Cash (BTH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											7,164.41
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											320.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1,824.10
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											29.98
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											32.50
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.31
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											28.52
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											33.65
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.29
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											29.12
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											33.02
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.30
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+
+									<!-- приват24 конец -->
+
+									<!-- Биткоин начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											420,151.10
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											165,441.18
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											30,56
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											6,156.04
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											5,595.84
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											6,156.04
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											5,424.54
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											404,255.32
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											6,285.64
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											5,538.74
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											408,510.64
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											5,424.54
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											404,255.32
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+
+									<!-- Биткоин конец -->
+
+									<!-- Биткоин Кэш начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat4.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin Cash (BTH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											27,871.84
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat4.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin Cash (BTH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											11,432.25
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat4.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin Cash (BTH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											421.16
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+
+									<!-- Биткоин Кэш конец -->
+
+									<!-- Етхериум начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											12,693.26
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											5,360.68
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											190.02
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+
+									<!-- Етхериум конец -->
+
+									<!-- Етхериум Классик начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											553.78
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											230.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											8.53
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											8.47
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat6.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum Classic (ETC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											8.64
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+
+									<!-- Етхериум Классик конец -->
+
+									<!-- Литекоин начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											3,300.45
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1,389.85
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											49.97
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+
+									<!-- Литекоин конец -->
+
+									<!-- PM начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											7,405.65
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											8,419.58
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1,083.65
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											602.41
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											76.89
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.03
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.01
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.03
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.04
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.20
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											PM (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+
+									<!-- PM конец -->
+
+									<!-- Exmo начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 (UAH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Exmo (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+
+									<!-- Exmo конец -->
+
+
+									<!-- Payer начало -->
+
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat7.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Litecoin (LTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+
+									<!-- Payer конец -->
+
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat1.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Яндекс Деньги
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat2.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Приват24 UAH
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat3.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Bitcoin (BTC)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat5.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Ethereum (ETH)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat9.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											PM (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat10.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Exmo (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (USD)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (USD)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat11.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											Payer (EUR)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+									</tr>
+									<tr>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											2.49
+										</td>
+										<td>
+											AdvCash (RUB)
+										</td>
+										<td>
+											→
+										</td>
+										<td>
+											<img src="img/plat12.png" alt="иконка">
+										</td>
+										<td>
+											1.00
+										</td>
+										<td>
+											AdvCash (EUR)
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="main-wrapper">
+				<div class="reserv wow fadeInLeft">
+					<div class="reserv-sidebar">
+						<div class="reserv__title  wow fadeIn">
+							<img src="img/sidebar-2-icon.png" alt="резервы валют">
+							<h2>
+								Оповещение <br>
+								о резервах
+							</h2>
+						</div>
+						<div class="reserv-sidebar__content-2  wow fadeIn">
+							<p>
+								Если у нас не хватает <br>необходимой Вам суммы, <br>подпишитесь на оповещение, <br>
+								и при поступлении средств <br>указанных Вами, Вы получите <br>одноразовое уведомление на <br>e-mail.
+							</p>
+							<div class="form-2  wow fadeIn">
+								<input required type="text" placeholder="Ваш e-mail">
+								<input required type="text" placeholder="Сумма">
+								<select>
+									<option>
+										Яндекс Деньги
+									</option>
+									<option>
+										Приват24 UAH
+									</option>
+									<option>
+										Bitcoin (BTC)
+									</option>
+									<option>
+										Bitcoin Cash (BTH)
+									</option>
+									<option>
+										Ethereum (ETH)
+									</option>
+									<option>
+										Ethereum Classic (ETC)
+									</option>
+									<option>
+										Litecoin (LTC)
+									</option>
+									<option>
+										WEX (USD)
+									</option>
+									<option>
+										PM (EUR)
+									</option>
+									<option>
+										PM (RUB)
+									</option>
+									<option>
+										Exmo (USD)
+									</option>
+									<option>
+										Exmo (EUR)
+									</option>
+									<option>
+										Exmo (RUB)
+									</option>
+									<option>
+										Payer (USD)
+									</option>
+									<option>
+										Payer (EUR)
+									</option>
+									<option>
+										Payer (RUB)
+									</option>
+									<option>
+										AdvCash (USD)
+									</option>
+									<option>
+										AdvCash (EUR)
+									</option>
+									<option>
+										AdvCash (RUB)
+									</option>
+							</select>
+							</div>
+							<a href="#" class="btn  wow fadeIn">
+								Подписаться
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="main-content wow fadeInRight" id="main-content2">
+					<div class="reserv__title  wow fadeIn">
+						<img src="img/content-icon2.png" alt="автоматический обмен валют">
+						<h2>
+							Новости
+						</h2>
+					</div>
+					<p class="wow fadeIn">
+						Новостей пока нет
+					</p>
+					<a class="wow fadeIn" href="news.html">
+						Все новости
+					</a>
+				</div>
+			</div>
+			<div class="add  wow fadeIn">
+				<p>
+					Мы принимаем
+				</p>
+				<img class="wow fadeIn" src="img/add-1.png" alt="принимаем">
+				<img class="wow fadeIn" src="img/add-2.png" alt="принимаем">
+				<img class="wow fadeIn" src="img/add-3.png" alt="принимаем">
+				<img class="wow fadeIn" src="img/add-4.png" alt="принимаем">
+				<img class="wow fadeIn" src="img/add-5.png" alt="принимаем">
+				<img class="wow fadeIn" src="img/add-6.png" alt="принимаем">
+				<img class="wow fadeIn" src="img/add-7.png" alt="принимаем">
+			</div>
+		</div>
+	</section>
+	<footer id="footer" class="footer wow fadeIn">
+		<div class="container">
+			<p>
+				© 2018 Mychange
+			</p>
+		</div>
+	</footer>
+
+
+	
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popup.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script >
+		new WOW().init();
+	</script>
+	<script src="js/script.js"></script>
+
+	<!-- <style type="text/css">#hellopreloader>p{display:none;}#hellopreloader_preload {
+		display: block;
+		position: absolute;
+		z-index: 99999;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 100%;
+		height: 100%;
+		min-width: 1000px;
+		background: #22313F url(http://hello-site.ru//main/images/preloads/ball-triangle.svg) center center no-repeat;
+		background-size:100px;}</style>
+<div id="hellopreloader"><div id="hellopreloader_preload"></div><p><a href="http://hello-site.ru">Hello-Site.ru. Бесплатный конструктор сайтов.</a></p></div>
+<script type="text/javascript">var hellopreloader = document.getElementById("hellopreloader_preload");function fadeOutnojquery(el){el.style.opacity = 1;var interhellopreloader = setInterval(function(){el.style.opacity = el.style.opacity - 0.05;if (el.style.opacity <=0.05){ clearInterval(interhellopreloader);hellopreloader.style.display = "none";}},16);}window.onload = function(){setTimeout(function(){fadeOutnojquery(hellopreloader);},500);};</script> -->
+<!-- HelloPreload http://hello-site.ru/preloader/ -->
+</body>
+</html>

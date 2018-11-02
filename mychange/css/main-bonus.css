@@ -1,0 +1,19 @@
+.offer {
+  background: url('../img/third-bg.jpg') no-repeat center top / cover;
+}
+.main-content {
+  padding-bottom: 40px;
+}
+.main-content__text a {
+  color: #788088;
+  border-bottom: 1px solid #788088;
+  padding-bottom: 2px;
+}
+.footer {
+  margin-top: 240px;
+}
+@media screen and (max-width: 1440px) {
+  .footer {
+    display: none;
+  }
+}

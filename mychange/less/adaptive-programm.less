@@ -1,0 +1,91 @@
+// Adaptive programm
+
+@media screen and (max-width: 1440px) {
+	.footer {
+		margin-top: 150px;
+	}
+}
+
+@media screen and (max-width: 1366px) {
+	.footer {
+		margin-top: 300px;
+	}
+}
+
+@media screen and (max-width: 1152px) {
+	.table {
+
+		thead {
+			display: none;
+		}
+		
+		td {
+			justify-content: space-between;
+			display: block;
+			border: none;
+		}
+		
+		tr:nth-child(2),
+		tr:nth-child(4),
+		tr:nth-child(6) {
+			background-color: #123152;
+		}
+
+		td:before {
+			content: attr(data-label);
+			position: absolute;
+			right: 10px;
+		}
+	}
+
+	.footer {
+		margin-top: 1100px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.footer {
+		margin-top: 1080px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.table {
+
+		td:before {
+			position: static;
+			display: block;
+			margin-bottom: 15px;
+			color: #fff;
+		}
+
+		td:before,
+		td {
+			text-align: center;
+		}
+	}
+
+	.footer {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.footer {
+		margin-top: 2200px;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.main-content__text p {
+		text-align: center;
+		font-size: 14px;
+		padding: 0 8px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.partner__items img {
+		margin-right: 10px;
+	}
+}

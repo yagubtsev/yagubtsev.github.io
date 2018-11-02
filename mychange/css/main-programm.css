@@ -1,0 +1,75 @@
+.offer {
+  background: url('../img/second-bg.jpg') no-repeat center top / cover;
+}
+.main-content__text p {
+  padding: 0 45px;
+  font-size: 15px;
+  color: #788088;
+  line-height: 1.7em;
+}
+.main-content__text p span {
+  padding-bottom: 2px;
+  border-bottom: 1px solid #788088;
+}
+.main-content__text p:first-child {
+  margin-top: 25px;
+}
+.wrapper {
+  margin: 0 auto;
+}
+.table {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  background-color: #0b1d30;
+  padding: 10px 30px;
+  border-collapse: collapse;
+}
+.table td,
+.table th {
+  padding: 10px;
+  border: 1px solid #79838d;
+}
+.table thead {
+  color: #fff;
+}
+.table thead tr th {
+  text-align: left;
+}
+.table tbody {
+  color: #79838d;
+}
+.table tbody tr td {
+  padding: 15px 10px;
+}
+.table td {
+  position: relative;
+}
+.partner {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  width: 80%;
+}
+.partner p {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  margin: 30px 0;
+}
+.partner__items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.partner__items img {
+  width: 90px;
+  height: 30px;
+  cursor: pointer;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.footer {
+  margin-top: 80px;
+}

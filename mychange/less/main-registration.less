@@ -1,0 +1,85 @@
+// Регистрация нового пользователя
+
+.registration {
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+	position: absolute;
+	position: fixed;
+	z-index: 9999;
+	opacity: .9;
+	display: none;
+}
+
+.close {
+	cursor: pointer;
+	position: absolute;
+	left: 80%;
+	top: 8%;
+	transform: translate(-80%,-8%);
+	width: 50px;
+	height: 50px;
+}
+
+.close span {
+	position: absolute;
+	left: 40%;
+	top: 50%;
+	transform: translate(-50%,-40%);
+	display: block;
+	width: 30px;
+	height: 2px;
+	background-color: #fff;
+}
+
+.close span:first-child {
+	transform: rotate(135deg);
+}
+
+.close span:last-child {
+	transform: rotate(-135deg);
+}
+
+.reg {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 500px;
+	z-index: 10000;
+}
+
+.reg__item {
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	margin-bottom: 30px;
+
+	p {
+		color: #fff;
+		font-size: 16px;
+		text-align: center;
+		margin-bottom: 15px;
+	}
+
+	input {
+		padding-left: 25px;
+		background: transparent;
+		font-size: 15px;
+		padding: 10px 0;
+		padding-left: 20px;
+		color: #fff;
+	}
+}
+
+#reg-form,
+#vhod-form {
+	display: none;
+}
+
+@media screen and (max-width: 700px) {
+	.reg {
+		width: 80%;
+	}
+}
+
