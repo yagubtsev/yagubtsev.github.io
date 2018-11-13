@@ -1,0 +1,111 @@
+@media screen and (max-width: 1366px) {
+  body {
+    font-size: 14px !important;
+  }
+}
+@media screen and (max-width: 1280px) {
+  #form-1 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #form-1 input {
+    margin-bottom: 30px;
+  }
+  .arrow {
+    float: none !important;
+    margin: 0 auto !important;
+  }
+  .mackbook__content img {
+    display: none;
+  }
+  .new-design__left {
+    text-align: center;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 70% !important;
+    margin: 0 auto !important;
+  }
+}
+@media screen and (max-width: 1152px) {
+  body {
+    font-size: 13px !important;
+  }
+  .body-title h2 {
+    font-size: 2em !important;
+  }
+  #my-site {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  body {
+    font-size: 12px !important;
+  }
+  .new-design__right img {
+    display: none;
+  }
+  .mackbook__content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .mackbook__content img {
+    margin: 0 auto !important;
+    padding-bottom: 0 !important;
+  }
+  .header-title h1 {
+    font-size: 3em !important;
+  }
+  .footer__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__item {
+    text-align: center;
+    padding: 30px 0 !important;
+  }
+  .footer__item:first-child img {
+    display: block;
+    margin: 0 auto !important;
+    float: none !important;
+    margin-bottom: 20px !important;
+  }
+  .footer__item:last-child {
+    margin-right: 0 !important;
+    margin-top: 0 !important;
+  }
+  .footer__item:last-child h3 {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 800px) {
+  .header-title h1 {
+    font-size: 2em !important;
+  }
+}
+@media screen and (max-width: 700px) {
+  .features__list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .features__item {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  .features__item:nth-child(2) {
+    margin: 0 auto !important;
+    margin-bottom: 40px !important;
+  }
+}
