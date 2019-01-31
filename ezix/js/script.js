@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".sver").hide(),$(".info").hide(),$(".slider").slick({slidesToShow:1,slidesToScroll:1,autoplay:!0,autoplaySpeed:2e3}),$(".razv").click(function(){$(this).hide(300),$(".slider").hide(300),$(".sver").show(300),$(".info").show(300)}),$(".sver").click(function(){$(this).hide(),$(".slider").show(300),$(".razv").show(300),$(".info").hide(300)})});
