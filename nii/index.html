@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Nothing is Impossile</title>
+	<link rel = "icon" type = "image/x-icon" href = "img/favicon.ico">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<script>
+		function slowScroll (id) {
+    var offset = 0;
+    $('html, body').animate ({
+      scrollTop: $(id).offset ().top - offset
+    }, 1150);
+    return false;
+ }
+	</script>
+</head>
+<body>
+	<!-- <div class="preloader" id="page-preloader">
+		<div class="loader">
+			<img src="img/logo.png" alt="logo">
+		</div>
+	</div> -->
+	<header id="header" class="header">
+		<div class="container">
+			<div class="double-menu">
+				<a href="index.html">
+					<img src="img/logo.png" alt="logo" class="logo2">
+				</a>
+				<div class="circle-menu">
+					<span class="line2"></span>
+				</div>
+			</div>
+			<div class="header-menu wow fadeIn hm">
+				<img src="img/logo.png" alt="Nothing is Impossile" class="logo">
+					<ul class="menu">
+						<li><a onclick="slowScroll ('#first')" href="#">Главная</a></li>
+						<li><a onclick="slowScroll ('#about-project')" href="#">О проекте</a></li>
+						<li><a onclick="slowScroll ('#books')" href="#">Книги</a></li>
+						<li><a onclick="slowScroll ('#aboutmychannel')" href="#">Мой канал</a></li>
+						<li><a onclick="slowScroll ('#contact')" href="#">Контакты</a></li>
+					</ul>
+				
+				<p class="road">#nothingimpossible</p>
+			</div>	
+		</div>
+	</header>
+
+	<section id="first" class="first parallax-window"  data-parallax="scroll" data-image-src="img/first-bg.jpg">
+		<div class="container">
+			<div class="first-title">
+				<div class="first-title__item wow fadeIn">
+					<p>
+						Hard work beats talent when
+					</p>
+				</div>
+				<div class="first-title__item wow fadeIn">
+					<p>
+						talent doesn’t work hard
+					</p>
+				</div>
+				<div class="first-title__item_small wow fadeIn">
+					<p>
+						Tim Notke
+					</p>
+				</div>
+			</div>
+			<img onclick="slowScroll ('#about-project')" src="img/scrool-down.png" alt="Прокрутить вниз" class="down">
+		</div>
+	</section>
+
+	<section id="about-project" class="about-project">
+		<div class="container">
+			<div class="section__title wow fadeInLeft">
+				<div class="line"></div>
+				<h1>
+					О проекте
+				</h1>
+			</div>
+			<div class="about-project_text wow fadeInLeft">
+				<p class="top-text">
+					Nothing is impossible - это проект для людей, которые идут за своей мечтой и готовы сделать всё, чтобы приблизиться к ней как можно ближе. Несмотря на все трудности и препятствия, они идут за своей целью и считают, что нет ничего невозможного!
+				</p>
+				<p class="otbros">
+					Познакомиться с деятельностью автора, а также задать свои вопросы, ты сможешь на YouTube канале Анатолия Фомова
+				</p>
+				<a href="https://www.youtube.com/channel/UCQAXDeQ2Dx5-IV4Wzo7FYhg" class="btn">
+					Перейти на канал!
+				</a>
+			</div>
+			<div class="pages wow fadeInRight">
+				<img src="img/man_1.png" alt="Workout">
+				<img src="img/man_2.png" alt="Workout">
+			</div>
+		</div>
+	</section>
+
+	<section id="books" class="books parallax-window" data-parallax="scroll" data-image-src="img/second-bg.jpg">
+		<div class="container">
+			<div  id="st_2"  class="section__title">
+				<div class="line"></div>
+				<h1>
+					Книги для саморазвития
+				</h1>
+			</div>
+			<div class="books-cards flex-wrap">
+				<div class="books-cards__item wow fadeIn">
+					<img src="img/book_1.png" alt="К чёрту всё, берись и делай">
+					<p id="small">
+						Ричард Брэнсон<br> 
+						К черту всё, берись и делай 
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/1E9Z7jix3X9Dzc" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeIn">
+					<img src="img/book_2.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Дэвид Дейда<br>
+						Путь настоящего мужчины 
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/2dSDOuFQ3X9Eg8" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeIn">
+					<img src="img/book_3.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Роберт Кийосаки<br>
+						Богатый папа, бедный папа
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/SkPkPTz93X9WNj" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeIn">
+					<img src="img/book_4.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Грант Кардон<br>
+						Правило в 10 раз больше
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/_5aF3Dcm3XDi8J" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeInUp">
+					<img src="img/book_5.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Наполеон Хилл<br>
+						Закон успеха
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/dnqMwaDT3X3fiM" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeInUp">
+					<img src="img/book_6.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Джон Кехо<br>
+						Подсознание может всё 
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/unbQ7you3X3uEk" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeInUp">
+					<img src="img/book_7.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Эрик Ларссен<br>
+						На пределе
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/YM13uzP23X8rJH" class="btn">
+						Скачать
+					</a>
+				</div>
+				<div class="books-cards__item wow fadeInUp">
+					<img src="img/book_8.png" alt="К чёрту всё, берись и делай">
+					<p>
+						Вадим Зеланд<br>
+						Трансерфинг реальности
+					</p>
+					<a id="btn_2" href="https://yadi.sk/i/BodHyqgF3WjGVY" class="btn">
+						Скачать
+					</a>
+				</div>
+			</div>		
+		</div>
+	</section>
+	<section id="aboutmychannel" class="aboutmychannel">
+		<div class="container">
+			<div id="st_3" class="section__title">
+				<div class="line"></div>
+				<h1>
+					О моём канале
+				</h1>
+			</div>
+			<div class="video wow fadeIn">
+				<p>
+					Слова тут будут лишними, просто, посмотрите это
+				</p>
+				<iframe class="movie" width="600" height="335" src="https://www.youtube.com/embed/tKXyTIQsboY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</div>
+			<a id="btn_3" href="https://www.youtube.com/channel/UCQAXDeQ2Dx5-IV4Wzo7FYhg" class="btn">
+				Больше видео тут!
+			</a>
+		</div>
+	</section>
+
+	<section id="quest" class="quest parallax-window"  data-parallax="scroll" data-image-src="img/four-bg.jpg">
+		<div class="container">
+			<div class="form wow fadeIn">
+				<p>
+					Хочешь связаться со мной? Появился вопрос? Напиши мне и я отвечу тебе!
+				</p>
+				<form action="mail.php" method="POST">
+					<input type="text" name="user_name" placeholder="Ваше имя">
+					<input type="text" name="user_mail" placeholder="Почта">
+					<input type="text" name="user_skype" placeholder="Сообщение">
+					<button type="submit" id="btn" class="button_2">
+						Задать вопрос!		
+					</button>
+				</form>
+			</div>
+		</div>
+	</section>
+
+	<section id="contact" class="contact">
+		<div class="container">
+			<div class="section__title">
+				<div class="line"></div>
+				<h1>
+					Контакты
+				</h1>
+			</div>
+			<div class="contact__card wow fadeIn">
+				<div class="contact__card_item">
+					<img src="img/icon_1.png" alt="ютуб">
+					<p>
+						Анатолий Фомов
+					</p>
+				</div>
+				<div class="contact__card_item">
+					<img src="img/icon_2.png" alt="вконтакте">
+					<p>
+						vk.com/id188559757
+					</p>
+				</div>
+				<div class="contact__card_item">
+					<img src="img/icon_3.png" alt="почта">
+					<p>
+						fomov6@gmail.com
+					</p>
+				</div>
+			</div>
+			<img onclick="slowScroll ('#header')" src="img/scrool-up.png" alt="прокрутить наверх" class="up">
+		</div>
+	</section>
+
+	<footer id="footer" class="footer" >
+		<div class="container">
+			<div class="footer__text">
+					<p>
+						Разработчик сайта - Ягубцев Иван<br>
+						<a href="http://yagubtsevivan.ru">
+							yagubtsev-developer.ru
+						</a>
+					</p>
+				<p class="right">
+					Nothing Is Impossible © 2018
+				</p>
+				<p class="road_2">
+					#nothingimpossible
+				</p>
+			</div>
+		</div>
+	</footer>
+
+
+
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script>
+		document.body.onload = function() {
+			setTimeout(function() {
+				var preloader = document.getElementById('page-preloader');
+				if(!preloader.classList.contains('done') ) {
+					preloader.classList.add('done');
+				}
+			}, 2000);
+		}
+	</script>
+	<script src="js/wow.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+	</script>
+	<script src="js/main.js"></script>
+	<script src="js/parallax.js"></script>
+</body>
+</html>
