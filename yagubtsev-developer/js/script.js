@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".circle-menu").click(function(){$(this).toggleClass("circle-menu__active")})});
+$(document).ready(function(){$(".popup-menu__wrapper").hide(),$(".circle-menu").click(function(){$(".popup-menu__wrapper").show(300)}),$(".fa-times").click(function(){$(".popup-menu__wrapper").hide(300)})});
