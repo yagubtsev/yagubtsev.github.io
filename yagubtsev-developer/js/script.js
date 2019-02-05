@@ -1,0 +1,1 @@
+$(document).ready(function(){$(".circle-menu").click(function(){$(this).toggleClass("circle-menu__active")})});
