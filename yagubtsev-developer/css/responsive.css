@@ -1,0 +1,469 @@
+@media screen and (max-width: 1220px) {
+  .container {
+    width: 960px !important;
+  }
+  .circle {
+    width: 250px !important;
+    height: 250px !important;
+  }
+  .main__offer {
+    width: 60%;
+  }
+  .offer-categories__item {
+    margin-right: 10px !important;
+  }
+  .offer-categories__item p {
+    font-size: 10px !important;
+  }
+  .btn {
+    width: 152px;
+  }
+  .about-me {
+    top: -25%;
+    left: -40%;
+  }
+  .about-me h3 {
+    font-size: 12px;
+  }
+  .about-me span {
+    display: block;
+    font-size: 11px;
+    margin-top: 1%;
+  }
+  .about-me a {
+    font-size: 12px;
+    margin-top: -6%;
+  }
+  .about-me i {
+    font-size: 8px;
+    margin-top: -6%;
+  }
+  .lock-portfolio:hover i {
+    margin-top: -3%;
+  }
+  .circle {
+    border: 28px solid #542ba6 !important;
+  }
+  .main__offer p {
+    font-size: 30px;
+  }
+  .main__offer span {
+    font-size: 17px;
+  }
+  .shadow {
+    top: 15% !important;
+  }
+  .shadow img {
+    max-height: 400px !important;
+  }
+  .fig1,
+  .fig3 {
+    width: 20%;
+  }
+  .fig1 img,
+  .fig3 img {
+    width: 100%;
+  }
+  .fig2 {
+    width: 30%;
+  }
+  .fig2 img {
+    width: 100%;
+  }
+  .fig4 {
+    width: 15%;
+  }
+  .fig4 img {
+    width: 100%;
+  }
+  .fig5 {
+    font-size: 65px !important;
+  }
+  .fig6 {
+    font-size: 52px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px !important;
+  }
+  .main__title {
+    text-align: center;
+  }
+  .main__title p {
+    font-size: 30px !important;
+  }
+  .main__title span {
+    font-size: 13px	!important;
+  }
+  .works-list {
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-between !important;
+  }
+  .works-list__item {
+    margin-right: 0 !important;
+  }
+  .works__year {
+    display: flex;
+    justify-content: center;
+  }
+  .circle {
+    width: 200px !important;
+    height: 200px !important;
+  }
+  .main__offer {
+    width: 60%;
+  }
+  .offer-categories__item {
+    margin-right: 10px !important;
+  }
+  .offer-categories__item p {
+    font-size: 8px !important;
+  }
+  .btn {
+    width: 142px;
+    padding: 12px 0 !important;
+  }
+  .about-me {
+    top: -35%;
+    left: -30%;
+  }
+  .about-me h3 {
+    font-size: 10px;
+  }
+  .about-me span {
+    font-size: 9px;
+  }
+  .about-me a {
+    font-size: 10px;
+  }
+  .about-me i {
+    font-size: 6px;
+  }
+  .circle {
+    border: 23px solid #542ba6 !important;
+  }
+  .main__offer p {
+    font-size: 20px;
+  }
+  .main__offer span {
+    font-size: 12px;
+  }
+  .shadow {
+    top: 25% !important;
+  }
+  .shadow img {
+    max-height: 300px !important;
+  }
+  .fig1,
+  .fig3 {
+    width: 15%;
+  }
+  .fig1 img,
+  .fig3 img {
+    width: 100%;
+  }
+  .fig2 {
+    width: 20%;
+    left: -30% !important;
+  }
+  .fig2 img {
+    width: 100%;
+  }
+  .fig4 {
+    width: 12.5%;
+  }
+  .fig4 img {
+    width: 100%;
+  }
+  .fig5 {
+    font-size: 42px !important;
+  }
+  .fig6 {
+    font-size: 29px !important;
+  }
+  .logo p {
+    font-size: 25px !important;
+  }
+  .logo span {
+    font-size: 15px !important;
+  }
+  .menu__link {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90% !important;
+  }
+  .main__title {
+    text-align: center;
+  }
+  .main__title p {
+    font-size: 28px !important;
+  }
+  .main__title span {
+    font-size: 12px	!important;
+  }
+  .works-list {
+    width: 100%;
+  }
+  .menu-text p {
+    margin-top: -10%;
+    font-size: 70px !important;
+  }
+  .circle {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  .main__offer {
+    width: 60%;
+  }
+  .offer-categories__item {
+    margin-right: 10px !important;
+  }
+  .offer-categories__item p {
+    font-size: 6px !important;
+  }
+  .btn {
+    width: 112px;
+    padding: 10px 0 !important;
+    font-size: 8px !important;
+  }
+  .about-me {
+    top: -40%;
+    left: -35%;
+  }
+  .about-me h3 {
+    font-size: 8px;
+  }
+  .about-me span {
+    font-size: 7px;
+    margin-top: 1%;
+  }
+  .about-me a {
+    font-size: 8px;
+    margin-top: -15%;
+  }
+  .about-me i {
+    font-size: 4px;
+    margin-top: -15%;
+  }
+  .lock-portfolio:hover i {
+    margin-top: -15px;
+  }
+  .circle {
+    border: 20px solid #542ba6 !important;
+  }
+  .main__offer p {
+    font-size: 15px;
+  }
+  .main__offer span {
+    font-size: 8px;
+  }
+  .shadow {
+    top: 15% !important;
+  }
+  .shadow img {
+    max-height: 225px !important;
+  }
+  .fig1,
+  .fig3 {
+    width: 15%;
+  }
+  .fig1 img,
+  .fig3 img {
+    width: 100%;
+  }
+  .fig2 {
+    width: 15%;
+    left: -30% !important;
+  }
+  .fig2 img {
+    width: 100%;
+  }
+  .fig4 {
+    width: 10%;
+  }
+  .fig4 img {
+    width: 100%;
+  }
+  .fig5 {
+    font-size: 36px !important;
+  }
+  .fig6 {
+    font-size: 23px !important;
+  }
+  .logo p {
+    font-size: 22px !important;
+  }
+  .logo span {
+    font-size: 12px !important;
+  }
+  .menu__link {
+    font-size: 10px;
+  }
+  .about-me__text {
+    display: flex !important;
+    justify-content: space-between;
+  }
+  .about-me__text p {
+    margin-bottom: 15%;
+  }
+  .menu {
+    margin-top: 13% !important;
+    display: none;
+  }
+  .menu__item {
+    margin-right: 20px !important;
+  }
+  .circle-menu {
+    display: block !important;
+  }
+  .main__wrapper,
+  .title__wrapper {
+    flex-direction: column;
+    padding: 25px 30px !important;
+    min-height: 80vh;
+  }
+  .main__preview .circle {
+    margin: 0 auto;
+    margin-top: 3%;
+  }
+  .main__preview .shadow {
+    left: 23%;
+  }
+  .main__offer {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0;
+  }
+  .main__offer p {
+    font-size: 18px !important;
+  }
+  .main__offer span {
+    font-size: 14px !important;
+  }
+  .offer-categories {
+    width: 65% !important;
+    margin: 0 auto;
+  }
+  .offer-categories__item p {
+    font-size: 7px !important;
+  }
+  .offer-categories__item:last-child {
+    margin-right: 0 !important;
+  }
+  .btn {
+    width: 132px;
+    padding: 11px 0 !important;
+    margin: 0 auto;
+    margin-top: 5%;
+    font-size: 9px !important;
+  }
+  .logo p {
+    font-size: 18px !important;
+  }
+  .logo span {
+    font-size: 10.5px !important;
+  }
+  .effects-mobile,
+  .main__text_mobile {
+    display: block !important;
+  }
+  .main__text_mobile {
+    padding: 10% 0 !important;
+  }
+}
+@media screen and (max-width: 640px) {
+  .offer-categories {
+    width: 100% !important;
+  }
+  .offer-categories__item p {
+    font-size: 7px !important;
+  }
+  .offer-categories__item:last-child {
+    margin-right: 0 !important;
+  }
+  .works-list {
+    width: 100%;
+    justify-content: center !important;
+  }
+}
+@media screen and (max-width: 560px) {
+  .main__text_mobile p {
+    font-size: 12px !important;
+  }
+}
+@media screen and (max-width: 540px) {
+  .first-text {
+    width: 80%;
+    margin: 0 auto;
+    top: -35%;
+    left: 10%;
+  }
+  .first-text p {
+    font-size: 12px;
+  }
+  .main__text_mobile {
+    margin-top: -10%;
+  }
+}
+@media screen and (max-width: 430px) {
+  .main__text_mobile p {
+    font-size: 10px !important;
+  }
+  .logo p {
+    font-size: 15px !important;
+  }
+  .logo span {
+    font-size: 9px !important;
+  }
+  .fig6-2 {
+    display: none;
+  }
+  .main__title {
+    text-align: center;
+  }
+  .main__title p {
+    font-size: 26px !important;
+  }
+  .main__title span {
+    font-size: 11px	!important;
+  }
+  .title__wrapper {
+    padding: 50px 15px !important;
+  }
+  .main__offer p {
+    font-size: 15px !important;
+  }
+  .main__offer span {
+    font-size: 11px !important;
+  }
+  .offer-categories__item p {
+    padding: 3px 0 !important;
+    font-size: 7px !important;
+  }
+  .btn {
+    margin-top: 10%;
+    width: 112px !important;
+    font-size: 8px !important;
+  }
+  .main__wrapper,
+  .title__wrapper {
+    padding: 15px 20px !important;
+  }
+  .shadow {
+    left: 5% !important;
+  }
+  .menu-text p {
+    margin-top: 0 !important;
+    font-size: 52px !important;
+  }
+}
+@media screen and (max-width: 350px) {
+  .offer-categories__item p {
+    font-size: 6px !important;
+  }
+}
