@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Портфолио</title>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:100,300,400,500,700,800,900" rel="stylesheet">
+	<link rel = "icon" type = "image/x-icon" href = "img/favicon.ico">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="preloader" id="page-preloader">
+		<div class="loader">
+			<div class="banter-loader">
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+  				<div class="banter-loader__box"></div>
+			</div>
+		</div>	
+	</div>
+	<div class="popup-menu__wrapper">
+		<div class="popup-menu__wrapper_left">
+			<div class="menu-text">
+				<p>Меню</p>
+			</div>
+		</div>
+		<div class="popup-menu__wrapper_right">
+			<div class="popup-menu">
+				<i class="fas fa-times"></i>
+				<nav>
+					<div class="menu-mobile__wrapper">
+						<ul class="menu-mobile">
+							<li>
+								<a href="index.html">
+									Главная
+								</a>
+							</li>
+							<li>
+								<a href="portfolio.html" >
+									Портфолио
+								</a>
+							</li>
+							<li>
+								<a class="burger-link__active"  href="comments.html">
+									Отзывы
+								</a>
+							</li>
+						</ul>
+					</div>
+				</nav>	
+			</div>
+		</div>
+	</div>
+	<header id="header" class="header">
+		<div class="container">
+			<div class="header__wrapper">
+				<div class="header__content">
+					<div class="logo">
+						<p>
+							Yagubtsev Ivan
+						</p>
+						<span>
+							frontend-developer & web-designer
+						</span>
+					</div>
+					<div class="circle-menu">
+						<span class="line"></span>
+					</div>
+					<nav>
+						<ul class="menu">
+							<li class="menu__item ">
+								<a href="index.html" class="menu__link">
+									Главная
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="portfolio.html" class="menu__link">
+									Портфолио
+								</a>
+							</li>
+							<li class="menu__item">
+								<a href="comments.html" class="menu__link active">
+									Отзывы
+								</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="main" class="main">
+		<div class="container">
+			<div class="title__wrapper">
+				<div class="main__title">
+					<p>
+						Что говорят обо мне
+					</p>
+					<span>
+						Отзывы клиентов после сдачи проекта
+					</span>
+				</div>
+				<div class="dont-comments">
+					<img src="img/comments-icon.png" alt="icon">
+					<p>
+						На данный момент отзывов нет, <br>
+						самое время это исправить!
+					</p>
+					<a href="#" class="btn btn-comments">
+						Заказать сайт
+					</a>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		document.body.onload = function() {
+			setTimeout(function() {
+				var preloader = document.getElementById('page-preloader');
+				if(!preloader.classList.contains('done') ) {
+					preloader.classList.add('done');
+				}
+			}, 1000);
+		}
+	</script>
+	</script>
+	<script src="js/script.js"></script>
+</body>
+</html>
