@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Александр Дехтерёв</title>
+	<link rel = "icon" type = "image/x-icon" href = "
+	img/favicon.ico">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/libs.css">
+	<link rel="stylesheet" href="css/fonts.css">
+</head>
+<body>
+	<div class="preloader" id="page-preloader">
+		<div class="loader">
+			<p>
+				loading
+			</p>
+		</div>
+	</div>
+	<section id="main" class="main">
+		<div class="container">
+			<div class="mobile-wrapper">
+				<div class="logo">
+					<h1>
+						Александр <br> Дехтерёв
+					</h1>
+					<img src="img/hand-icon.png" alt="hand">
+				</div>
+				<div class="burger-menu">
+					<span>
+						Меню
+					</span>
+					<div class="burger-menu__line"></div>
+				</div>
+			</div>
+			<div class="mobile-text">
+				<p>Музыкант</p>
+				<p>Программист</p>
+				<p>Человек :D</p>
+			</div>
+			<div class="links">
+				<div class="links__item">
+					<a href="https://vk.com/braintomix">
+						<i class="fab fa-vk"></i>
+					</a>
+				</div>
+				<div class="links__item">
+					<a href="https://www.instagram.com/brain_tomix/">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+				<div class="links__item">
+					<a href="https://vk.com/away.php?utf=1&to=https%3A%2F%2Fsteamcommunity.com%2Fprofiles%2F76561198112841487">
+						<i class="fab fa-steam-symbol"></i>
+					</a>
+				</div>	
+			</div>
+			<div class="menu">
+				<a href="#" class="menu__item who-me">
+					Кто я?
+				</a>
+				<a href="#" class="menu__item list">
+					Пункт
+				</a>
+				<div class="line-r">
+					<div class="line-r_right"></div>
+				</div>
+				<div class="line">
+					<div class="line-left"></div>
+					<div class="line-right"></div>
+				</div>
+				<div class="line-l">
+					<div class="line-l_left"></div>
+				</div>
+				<div class="circles">
+					<div class="circles__item"></div>
+					<div class="circles__item"></div>
+				</div>
+				<a href="#" class="menu__item track">
+					Треки
+				</a>
+			</div>
+			<div class="hero">
+				<img class="parallax1" src="img/parallax1.png" alt="parallax">
+				<img class="alexander" src="img/alex.png" alt="alex">
+				<img class="parallax2" src="img/parallax2.png" alt="parallax">
+				<img class="parallax3" src="img/parallax3.png" alt="parallax">
+				<img class="parallax4" src="img/parallax4.png" alt="parallax">
+				<img class="parallax5" src="img/parallax5.png" alt="parallax">
+				<img class="parallax6" src="img/parallax6.png" alt="parallax">
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script>
+		document.body.onload = function() {
+			setTimeout(function() {
+				var preloader = document.getElementById('page-preloader');
+				if(!preloader.classList.contains('done') ) {
+					preloader.classList.add('done');
+				}
+			}, 2000);
+		}
+	</script>
+	<script src="js/script.js"></script>
+	<script src="js/libs.js"></script>
+</body>
+</html>
