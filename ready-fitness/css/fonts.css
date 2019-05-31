@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'Monotype Corsiva';
+	src: url('../fonts/monotype_corsiva.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/monotype_corsiva.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/monotype_corsiva.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/monotype_corsiva.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/monotype_corsiva.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/monotype_corsiva.svg#monotype_corsiva') format('svg'); /* Chrome < 4, Legacy iOS */
+}
